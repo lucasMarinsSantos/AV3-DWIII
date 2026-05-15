@@ -3,11 +3,15 @@
 Sistema para gerenciamento de lojas de manutenção veicular e venda de autopeças.
 
 ## Como rodar
+Rodar no terminal, dentro de "<AV3-DWIII\atviii-autobots-microservico-spring-master\automanager>"
 
-Abra o projeto e execute a classe principal:
-
+Linux:
 ```
-atviii-autobots-microservico-spring-master\automanager\src\main\java\com\autobots\automanager\AutomanagerApplication.java
+./mvnw spring-boot:run -DskipTests
+```
+Windows:
+```
+.\mvnw.cmd spring-boot:run -DskipTests"
 ```
 
 A aplicação sobe em `http://localhost:8080`.  
